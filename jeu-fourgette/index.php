@@ -12,7 +12,7 @@
     <form action="index.php" method="post">
         <label for="text">Le jeu de la fourchette de nombre. Découvrez le nombre tiré au sort par l'ordinateur !</label>
         <div></div>
-        <input type="text" placeholder="Entrer votre nombre.." name="nbr">
+        <input type="text" placeholder="Entrer votre nombre.." name="nbr" maxlength="2">
         <!-- <button type="submit" name="envoyer">Envoyer</button>-->
     </form>
 
@@ -26,7 +26,7 @@
         $nombre_a_trouver = $_SESSION['nombre_a_trouver'] ;
     }
     
-
+    echo $nombre_a_trouver;
     $nombre = $_POST['nbr'];
     
     
