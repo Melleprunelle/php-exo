@@ -1,0 +1,27 @@
+h1 {
+    font-family: "arial", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: crimson;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 80%;
+    border-bottom: 1px solid crimson;
+}
+
+label {
+    font-family: "arial", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: crimson;
+    margin-left:10%;
+}
+
+input {
+    margin-left: 10%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: crimson;
+    box-shadow: 1px 1px 1px rgba(217,24,114,0.4);
+}

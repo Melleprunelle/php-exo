@@ -1,0 +1,19 @@
+h1 {
+    font-size: 15px;
+    font-family: 'arial', sans-serif;
+    color: darkred;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 15px;
+    font-family: 'arial', sans-serif;
+    color: darkred;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
